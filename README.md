@@ -32,10 +32,8 @@ Logotipo:
 >>> Si diseña un logotipo para su producto en la práctica 3 pongalo aqui, a un tamaño adecuado. Si diseña un slogan añadalo aquí
 
 Miembros y nombre del equipo:
- * :bust_in_silhouette:  Minerva Cebrián Marín   :octocat:     
- * :bust_in_silhouette:  Daniel Vega Jiménez     :octocat:
-
->>> Los equipos son de 2 personas. Identifícaros con el nombre del Grupo y los enlaces a los perfiles de GitHub de cada integrante
+ * :bust_in_silhouette:  Minerva Cebrián Marín   :octocat: https://github.com/mine1712    
+ * :bust_in_silhouette:  Daniel Vega Jiménez     :octocat: https://github.com/DeltaCeleste
 
 ----- 
 
@@ -56,7 +54,6 @@ Miembros y nombre del equipo:
 ![Método UX](img/Competitive.png) 
 -----
 
->>> Describe el plan en tu User Research (cómo se plantea la selección de usuarios). Borra esta línea cuando lo tengas.  
 
 
 ### 1.b Competitive Analysis
