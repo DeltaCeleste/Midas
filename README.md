@@ -104,7 +104,7 @@ Hemos optado por estos casos para explorar a fondo la rutina típica en este tip
 ----
 - Puntuación: 68/100 - Moderate
 - La puntuación obtenida está más que justificada pues la página que hemos analizado tiene varias carencias destacables. Aún así dispone de suficientes servicios y fortalezas para mantenerse a flote, lo que hace que la puntuación no sea más baja.
-[Enlace al pdf](P1/5.UsabilityReview/ur.pdf)
+- [Enlace al pdf](P1/5.UsabilityReview/ur.pdf)
 ### 1.f Briefing
 ----
 Como bien comentamos en el User Research Planning, en este proyecto hemos realizado un análisis de la intersección de la cultura pop japonesa y la gastronomía japonesa, tomando como referencia el restaurante bar **Ramen Shifu**. Tras realizar esta evaluación, hemos determinado que, aunque los principales competidores presentan una web bien estructurada, encontramos detalles en los que Ramen Shifu muestra una superioridad y viceversa.
