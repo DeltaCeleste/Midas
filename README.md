@@ -53,7 +53,7 @@ Miembros y nombre del equipo:
 ### 1.a User Reseach Plan
 ![Método UX](img/Competitive.png) 
 -----
-[[URP.pdf]]
+![URP.pdf](P1/1.UserResearchPlan/URP.pdf)
 
 
 ### 1.b Competitive Analysis
