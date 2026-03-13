@@ -52,14 +52,36 @@ Miembros y nombre del equipo:
 
 ### 1.a User Reseach Plan
 -----
-[PDF](P1/1.UserResearchPlan/URP.pdf)
+Este proyecto investiga la intersección entre la gastronomía japonesa y el universo de la **cultura pop japonesa**. Nuestra estrategia se basa en un análisis competitivo de nuestro competidor **"Ramen Shifu''**, una gran cadena de restaurantes multinacional a nivel europeo y un **User Journey Map** basado en perfiles de **usuarios ficticios** contrastantes entre sí para identificar debilidades críticas de nuestros competidores. De manera adicional se desarrollará un **Usability Review** para exponer concretamente todas las áreas que presenten problemas de usabilidad.
+
+El objetivo es diseñar una interfaz que vaya más alla de la mera transacción, convirtiéndose en una herramienta estratégica de retención y optimización del servicio. Buscamos validar qué atributos específicos influyen en la experiencia del usuario. De este modo, lograremos capitalizar las carencias detectadas en nuestros competidores y posicionar nuestra plataforma como una solución superior, atractiva y altamente funcional para cualquier tipo de usuario.
+
+[Enlace al pdf](P1/1.UserResearchPlan/URP.pdf)
 
 
 ### 1.b Competitive Analysis
 -----
 ![Competitor Analysis](P1/2.CompetitorAnalysis/Competitor_Analysis_[DIU23].png)
+Para el análisis de competidores hemos escogido a tres competidores:
+- **Shifu Ramen**: Nuestro competidor principal y una cadena con una gran cantidad de restaurantes repartidos por la pen´ınsula con una web cuanto menos curiosa. 
+- **Buga Ramen**: Una opción con varios locales por toda Espa˜na que destaca mucho por su decoración.
+- **Utopia Ramen**: El más pequeño de los tres, con apenas dos restaurantes pero con un estilo más diferenciado y profesional.
+Los tres son restaurantes de la temática que investigamos pero presentan ciertas diferencias entre sí que los hace rentables de analizar. Shifu, siendo el más grande, es el que tiene una página más trambótica, una elección de colores algo cuestionable y alguna decisión de diseño desastrosa como tener un enlace a la carta en la página principal que lleva a una página que solicita una contraseña. En contraposición, Utopia Ramen presenta un diseño más limpio pulido e innovador pero que puede pecar de poco intuitivo, Buga se alza como un medio camino entre ambas, suficientemente intuitiva y bonita, aunque luego palidece en otros apartados como en no tener opción para reservas online.
+Como criterios para comparar las páginas hemos escogido:
+- *Reserva Online*: Si la página ofrece un sistema para reservar.
+- *Ofertas para diferentes dietas*: Si en la página constan optativas para dietas vegetarianas, celiacas...
+- *Redes Sociales*: Valora la existencia de enlaces a las redes sociales del restaurante.
+- *Soporte Multilingüe*: Enfatiza la posibiliadad de navegar la web en otros idiomas para mejorar su accesibilidad.
+- *Rendimiento Web*: Juzga la optimización de la página web de cara a la fluidez.
+- *Protección de datos*: Analiza la información que dispone la página de cara a la protección de datos.
+- *Contacto*: Califica la forma que la página dispone para ofrecer comunicación con el sitio.
+- *Sistema de división y navegación de la carta*: Valora opciones que faciliten navegar la carta.
+- *Ubicación y Mapa*: Señala la forma en la que la página facilita la información relativa a la ubicación.
+- *Interfaz Intuitiva*: Valora la intuitividad de la interfaz.
+- *Responsive*: Expone la adptatividad de la web, por ejemplo, al visitarla desde el móvil.
+- *Accesividad*: Puntua que tan bien se haya adaptado la página para personas con limitaciones.
 
-[PDF](P1/2.CompetitorAnalysis/Competitor_Analysis.pdf)
+[Enlace al pdf](P1/2.CompetitorAnalysis/Competitor_Analysis.pdf)
 ### 1.c Personas 
 -----
 Para nuestro análisis de persona hemos creado dos personas con perfiles muy diferentes, estos son Laura y Paco. 
@@ -80,10 +102,18 @@ Hemos optado por estos casos para explorar a fondo la rutina típica en este tip
 
 ### 1.e Usability Review 
 ----
-
+- Puntuación: 68/100 - Moderate
+- La puntuación obtenida está más que justificada pues la página que hemos analizado tiene varias carencias destacables. Aún así dispone de suficientes servicios y fortalezas para mantenerse a flote, lo que hace que la puntuación no sea más baja.
+[Enlace al pdf](P1/5.UsabilityReview/ur.pdf)
 ### 1.f Briefing
 ----
-[PDF](P1/6.Briefing/Briefing.pdf)
+Como bien comentamos en el User Research Planning, en este proyecto hemos realizado un análisis de la intersección de la cultura pop japonesa y la gastronomía japonesa, tomando como referencia el restaurante bar **Ramen Shifu**. Tras realizar esta evaluación, hemos determinado que, aunque los principales competidores presentan una web bien estructurada, encontramos detalles en los que Ramen Shifu muestra una superioridad y viceversa.
+
+Nuestro Usability Review nos dió una puntuación de **68/100**, pudiendo destacar como debilidades principales el uso de sistemas externos para reservas, la inexistencia de filtros de búsqueda o el propio diseño de la interfaz el cuál puede llegar a ser confuso por la distribución y colores. De manera complementaria, hemos realizado dos perfiles de personas ficticias dispares, una joven con interés en la cultura pop japonesa y un señor con ningún tipo de conocimiento sobre esta pero con un nieto que si muestra interés. A partir de estos hemos elaborado casos de accesos a páginas de este tipo de restaurantes, centrándonos en las diversas dificultades que podrían encontrar nuestras personas navegando por estas. De esta forma nos concienciamos de los errores típicos para tratar de no cometerlos.
+
+Por estas razones, nuestra propuesta es la de diseñar una interfaz visualmente agradable y manejable para cualquier tipo de persona, que permita usar filtros de buscado sobre todo para aquellos con dietas especiales. Así mismo, apuntamos a un sistema de reservas único y estandarizado que no de pie a confusiones ni dependencias de servicios externos.
+
+[Enlace al pdf](P1/6.Briefing/Briefing.pdf)
 
 <br>
 
