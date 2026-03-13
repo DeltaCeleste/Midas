@@ -51,35 +51,33 @@ Miembros y nombre del equipo:
 
 
 ### 1.a User Reseach Plan
-![Método UX](img/Competitive.png) 
 -----
-![URP.pdf](P1/1.UserResearchPlan/URP.pdf)
+[PDF](P1/1.UserResearchPlan/URP.pdf)
 
 
 ### 1.b Competitive Analysis
-![Método UX](img/Competitive.png) 
 -----
-![[Competitor_Analysis_[DIU23].png]]
+![Competitor Analysis](P1/2.CompetitorAnalysis/Competitor_Analysis_[DIU23].png)
 
-![[Competitor_Analysis.pdf]]
-### 1.c Personas
-![Método UX](img/Persona.png) 
+[PDF](P1/2.CompetitorAnalysis/Competitor_Analysis.pdf)
+### 1.c Personas 
 -----
-![[P1/3.Persona/Laura.png]]
-![[P1/3.Persona/Paco.png]]
+![Persona 1](P1/3.Persona/Laura.png)
+![Persona 2](P1/3.Persona/Paco.png)
 
 
-### 1.d User Journey Map
-![Método UX](img/JourneyMap.png) 
+### 1.d User Journey Map 
 ----
-![[P1/4.JourneyMap/Laura.png]]
-![[P1/4.JourneyMap/Paco.png]]
+![Persona 1](P1/4.JourneyMap/Laura.png)
+![Persona 2](P1/4.JourneyMap/Paco.png)
 
 
-### 1.e Usability Review
-![Método UX](img/usabilityReview.png) 
+### 1.e Usability Review 
 ----
 
+### 1.f Briefing
+----
+[PDF](P1/6.Briefing/Briefing.pdf)
 
 <br>
 
