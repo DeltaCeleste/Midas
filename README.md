@@ -62,12 +62,18 @@ Miembros y nombre del equipo:
 [PDF](P1/2.CompetitorAnalysis/Competitor_Analysis.pdf)
 ### 1.c Personas 
 -----
+Para nuestro análisis de persona hemos creado dos personas con perfiles muy diferentes, estos son Laura y Paco. 
+- Laura es una estudiante joven de Bellas Artes, la cuál esta familiarizada con la temática anime y japonesa, y además es usuaria habitual de este tipo de restaurantes. 
+- Por otro lado tenemos a Paco, un perfil muy diferente el cuál no está interesado en la temática. Pero debido a su nieto va a visitar nuestro restaurante.
+
 ![Persona 1](P1/3.Persona/Laura.png)
 ![Persona 2](P1/3.Persona/Paco.png)
 
 
 ### 1.d User Journey Map 
 ----
+Hemos optado por estos casos para explorar a fondo la rutina típica en este tipo de webs, buscar una opción de reserva o de contacto, buscar la ubicación y explorar la carta; pero visto con el contraste que nuestros perfiles presentan. Nos centramos especialmente en los problemas y dificultades que ambos podrían encontrar navegando por estas páginas y en como podría solucionarse.
+
 ![Persona 1](P1/4.JourneyMap/Laura.png)
 ![Persona 2](P1/4.JourneyMap/Paco.png)
 
