@@ -21,11 +21,11 @@ Grupo: DIU1_MIDAS.  Curso: 2025/26
 
 Nombre del Proyecto: 
 
->>> Decida el nombre corto de su propuesta en la práctica 2 
+Umai! 旨い
 
 Descripción: 
 
->>> Describa la idea de su producto en la práctica 2 
+Un restaurante de comida japonesa tematizado en la diversidad cultural de las distintas zonas de Japón. Umai! busca acompañar al usuario a un viaje virtual a las distintas zonas de japón ilustrando particularidades locales con elementos popularizados como el anime, la música o gastronomía específica.
 
 Logotipo: 
 
