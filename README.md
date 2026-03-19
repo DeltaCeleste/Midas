@@ -17,13 +17,7 @@ Actualizado: 14/01/2026
 ![Método UX](img/caseStudy.png) 
 -----
 
->>> Este documento es el esqueleto del Case Study que explica el proceso de desarrollo de las 5 prácticas de DIU. Aparte de subir cada entrega a PRADO, se debe actualizar y dar formato de informe final a este documento online. Elimine este tipo de texto / comentarios desde la práctica 1 conforme proceda a cada paso
-
-
->>> Hay que Publicar de forma incremental "my Case Study" en Github... Es el momento de dejar este documento para que sea evaluado y calificado como parte de la práctica
->>> Documente bien la cabecera y asegurese que ha resumido los pasos realizados para el diseño de su producto
-
-Grupo: DIUx_AABB.  Curso: 2025/26 
+Grupo: DIU1_MIDAS.  Curso: 2025/26 
 
 Nombre del Proyecto: 
 
@@ -38,10 +32,8 @@ Logotipo:
 >>> Si diseña un logotipo para su producto en la práctica 3 pongalo aqui, a un tamaño adecuado. Si diseña un slogan añadalo aquí
 
 Miembros y nombre del equipo:
- * :bust_in_silhouette:  AA     :octocat:     
- * :bust_in_silhouette:  BB     :octocat:
-
->>> Los equipos son de 2 personas. Identifícaros con el nombre del Grupo y los enlaces a los perfiles de GitHub de cada integrante
+ * :bust_in_silhouette:  Minerva Cebrián Marín   :octocat: https://github.com/mine1712    
+ * :bust_in_silhouette:  Daniel Vega Jiménez     :octocat: https://github.com/DeltaCeleste
 
 ----- 
 
@@ -57,45 +49,71 @@ Miembros y nombre del equipo:
 
 ## Paso 1. UX User & Desk Research & Analisis 
 
->>> Cualquier título puede ser adaptado. Recuerda borrar estos comentarios del template en tu documento
-
 
 ### 1.a User Reseach Plan
-![Método UX](img/Competitive.png) 
 -----
+Este proyecto investiga la intersección entre la gastronomía japonesa y el universo de la **cultura pop japonesa**. Nuestra estrategia se basa en un análisis competitivo de nuestro competidor **"Ramen Shifu''**, una gran cadena de restaurantes multinacional a nivel europeo y un **User Journey Map** basado en perfiles de **usuarios ficticios** contrastantes entre sí para identificar debilidades críticas de nuestros competidores. De manera adicional se desarrollará un **Usability Review** para exponer concretamente todas las áreas que presenten problemas de usabilidad.
 
->>> Describe el plan en tu User Research (cómo se plantea la selección de usuarios). Borra esta línea cuando lo tengas.  
+El objetivo es diseñar una interfaz que vaya más alla de la mera transacción, convirtiéndose en una herramienta estratégica de retención y optimización del servicio. Buscamos validar qué atributos específicos influyen en la experiencia del usuario. De este modo, lograremos capitalizar las carencias detectadas en nuestros competidores y posicionar nuestra plataforma como una solución superior, atractiva y altamente funcional para cualquier tipo de usuario.
+
+[Enlace al pdf](P1/1.UserResearchPlan/URP.pdf)
 
 
 ### 1.b Competitive Analysis
-![Método UX](img/Competitive.png) 
 -----
+![Competitor Analysis](P1/2.CompetitorAnalysis/Competitor_Analysis_[DIU23].png)
+Para el análisis de competidores hemos escogido a tres competidores:
+- **Shifu Ramen**: Nuestro competidor principal y una cadena con una gran cantidad de restaurantes repartidos por la pen´ınsula con una web cuanto menos curiosa. 
+- **Buga Ramen**: Una opción con varios locales por toda Espa˜na que destaca mucho por su decoración.
+- **Utopia Ramen**: El más pequeño de los tres, con apenas dos restaurantes pero con un estilo más diferenciado y profesional.
+Los tres son restaurantes de la temática que investigamos pero presentan ciertas diferencias entre sí que los hace rentables de analizar. Shifu, siendo el más grande, es el que tiene una página más trambótica, una elección de colores algo cuestionable y alguna decisión de diseño desastrosa como tener un enlace a la carta en la página principal que lleva a una página que solicita una contraseña. En contraposición, Utopia Ramen presenta un diseño más limpio pulido e innovador pero que puede pecar de poco intuitivo, Buga se alza como un medio camino entre ambas, suficientemente intuitiva y bonita, aunque luego palidece en otros apartados como en no tener opción para reservas online.
+Como criterios para comparar las páginas hemos escogido:
+- *Reserva Online*: Si la página ofrece un sistema para reservar.
+- *Ofertas para diferentes dietas*: Si en la página constan optativas para dietas vegetarianas, celiacas...
+- *Redes Sociales*: Valora la existencia de enlaces a las redes sociales del restaurante.
+- *Soporte Multilingüe*: Enfatiza la posibiliadad de navegar la web en otros idiomas para mejorar su accesibilidad.
+- *Rendimiento Web*: Juzga la optimización de la página web de cara a la fluidez.
+- *Protección de datos*: Analiza la información que dispone la página de cara a la protección de datos.
+- *Contacto*: Califica la forma que la página dispone para ofrecer comunicación con el sitio.
+- *Sistema de división y navegación de la carta*: Valora opciones que faciliten navegar la carta.
+- *Ubicación y Mapa*: Señala la forma en la que la página facilita la información relativa a la ubicación.
+- *Interfaz Intuitiva*: Valora la intuitividad de la interfaz.
+- *Responsive*: Expone la adptatividad de la web, por ejemplo, al visitarla desde el móvil.
+- *Accesividad*: Puntua que tan bien se haya adaptado la página para personas con limitaciones.
 
->>> Describe brevemente características de las aplicaciones que tiene asignadas tu grupo. Decidete por una y explica por qué se ha seleccionado. Borra esta línea cuando lo tengas. 
-
-
-### 1.c Personas
-![Método UX](img/Persona.png) 
+[Enlace al pdf](P1/2.CompetitorAnalysis/Competitor_Analysis.pdf)
+### 1.c Personas 
 -----
+Para nuestro análisis de persona hemos creado dos personas con perfiles muy diferentes, estos son Laura y Paco. 
+- Laura es una estudiante joven de Bellas Artes, la cuál esta familiarizada con la temática anime y japonesa, y además es usuaria habitual de este tipo de restaurantes. 
+- Por otro lado tenemos a Paco, un perfil muy diferente el cuál no está interesado en la temática. Pero debido a su nieto va a visitar nuestro restaurante.
 
->>> Junto con la captura de pantalla de la ficha de la persona, haz una breve descripción de la misma. Recuerda que son dos. Los recursos de imagen deberán estar dentro de la carpeta P1/ Cuando termines, borra esta línea.  
+![Persona 1](P1/3.Persona/Laura.png)
+![Persona 2](P1/3.Persona/Paco.png)
 
 
-### 1.d User Journey Map
-![Método UX](img/JourneyMap.png) 
+### 1.d User Journey Map 
 ----
+Hemos optado por estos casos para explorar a fondo la rutina típica en este tipo de webs, buscar una opción de reserva o de contacto, buscar la ubicación y explorar la carta; pero visto con el contraste que nuestros perfiles presentan. Nos centramos especialmente en los problemas y dificultades que ambos podrían encontrar navegando por estas páginas y en como podría solucionarse.
 
->>> Describe el porqué de las dos experiencias de usuario contadas en el journey map. Por ejemplo, reflexiona si te parece que son habituales. Enlaza con los recursos journey que están en la carpeta P1/. Borra esta linea del template cuando termines.  
+![Persona 1](P1/4.JourneyMap/Laura.png)
+![Persona 2](P1/4.JourneyMap/Paco.png)
 
 
-### 1.e Usability Review
-![Método UX](img/usabilityReview.png) 
+### 1.e Usability Review 
 ----
+- Puntuación: 68/100 - Moderate
+- La puntuación obtenida está más que justificada pues la página que hemos analizado tiene varias carencias destacables. Aún así dispone de suficientes servicios y fortalezas para mantenerse a flote, lo que hace que la puntuación no sea más baja.
+- [Enlace al pdf](P1/5.UsabilityReview/ur.pdf)
+### 1.f Briefing
+----
+Como bien comentamos en el User Research Planning, en este proyecto hemos realizado un análisis de la intersección de la cultura pop japonesa y la gastronomía japonesa, tomando como referencia el restaurante bar **Ramen Shifu**. Tras realizar esta evaluación, hemos determinado que, aunque los principales competidores presentan una web bien estructurada, encontramos detalles en los que Ramen Shifu muestra una superioridad y viceversa.
 
->>>  El objetivo es revisar la usabilidad del competidor seleccionado. Usamos un checklist de verificación. Tras usarlo, subelo a la carpeta P1/ Ofrece aquí un parrafo para:
->>> - Enlace al documento:  (xls/pdf) 
->>> - URL y Valoración numérica obtenida: 
->>> - Comentario sobre la revisión:  (puntos fuertes y débiles detectados)
+Nuestro Usability Review nos dió una puntuación de **68/100**, pudiendo destacar como debilidades principales el uso de sistemas externos para reservas, la inexistencia de filtros de búsqueda o el propio diseño de la interfaz el cuál puede llegar a ser confuso por la distribución y colores. De manera complementaria, hemos realizado dos perfiles de personas ficticias dispares, una joven con interés en la cultura pop japonesa y un señor con ningún tipo de conocimiento sobre esta pero con un nieto que si muestra interés. A partir de estos hemos elaborado casos de accesos a páginas de este tipo de restaurantes, centrándonos en las diversas dificultades que podrían encontrar nuestras personas navegando por estas. De esta forma nos concienciamos de los errores típicos para tratar de no cometerlos.
+
+Por estas razones, nuestra propuesta es la de diseñar una interfaz visualmente agradable y manejable para cualquier tipo de persona, que permita usar filtros de buscado sobre todo para aquellos con dietas especiales. Así mismo, apuntamos a un sistema de reservas único y estandarizado que no de pie a confusiones ni dependencias de servicios externos.
+
+[Enlace al pdf](P1/6.Briefing/Briefing.pdf)
 
 <br>
 
