@@ -119,38 +119,46 @@ Por estas razones, nuestra propuesta es la de diseñar una interfaz visualmente 
 
 ## Paso 2. UX Design  
 
->>> Cualquier título puede ser adaptado. Recuerda borrar estos comentarios del template en tu documento
-
-### 2.a Reframing / IDEACION: Feedback Capture Grid / EMpathy map 
+### 2.a Reframing / IDEACION: Empathy map 
 ![Método UX](img/feedback-capture-grid.png) 
 ----
+Hemos realizado un empathy map como forma de analizar los puntos más relevantes e importantes para nuestras personas ficticias previamente presentadas en lo que encontrar un nuevo restaurante anime japonés se refiere. Esto nos servirá para tener en cuenta preocupaciones y expectativas de los usuarios y poder modelar a partir de aquí.
 
->>> Comenta con un diagrama los aspectos más destacados a modo de conclusion de la práctica anterior. De qué carece la competencia?? Tu diagrama puede ser una figura subida a la carpeta P2/
-
-
- Interesante | Críticas     
-| ------------- | -------
-  Preguntas | Nuevas ideas
-  
-    
->>> Explica el Problema y plantea una hipótesis. Es decir, explica aquí qué 
->>> se plantea como "propuesta de valor" para un nuevo diseño de aplicación propio
-
+![EmpathyMap](P2/1.EmpathyMap/EmpathyCustomerMap.png)
 
 ### 2.b ScopeCanvas
 ![Método UX](img/ScopeCanvas.png)
 ----
+**Propuesta de valor**: Nuestra propuesta es alejarnos un poco del típico restaurante restaurante japonés de temática anime recargado de elementos relacionados con la animación japonesa. Nuestro enfoque va más a las diferencias culturales y gastronómicas entre las regiones de japón, tematizando el restaurante por zonas basadas en las regiones y utilizando el anime como base más familiar para muchos para ejemplificar las particularidades culturales.
 
->>> Propuesta de valor, pero ahora en vez de un texto es un ScopeCanvas que has subido a P2/ y enlazado desde aqui. Tambien vale una imagen miniatura del recurso.
->>> No olvides que tu propuesta ya tiene un nombre corto y puedes actualizar la cabecera de este archivo
-
-
-
+![ScopeCanvas](P2/2.ScopeCanvas/ScopeCanvas.png)
 ### 2.b User Flow (task) analysis 
 ![Método UX](img/Sitemap.png) 
 -----
+- Task Analysis
 
->>> Definir "User Map" y "Task Flow" ... enlazar desde P2/ y describir brevemente
+|                                  | **Usuario** | **Usuario Registrado** | **Administrador** |
+| -------------------------------- | ----------- | ---------------------- | ----------------- |
+| Ver la carta                     | Alta        | Alta                   | Moderada          |
+| Visualizar Ubicaciones en mapa   | Alta        | Alta                   | Baja              |
+| Acceder a datos de contacto      | Alta        | Alta                   | Baja              |
+| Hacer una reserva                | Alta        | Alta                   | Baja              |
+| Gestionar reservas               | Baja        | Baja                   | Alta              |
+| Opciones de filtrado de la carta | Moderada    | Baja                   | Moderada          |
+| Opciones de Idioma               | Alta        | Alta                   | Baja              |
+| Registro                         | Moderada    | -                      | Alta              |
+| Gestión de la cuenta             | -           | Moderada               | Baja              |
+| Gestión de cupones               | -           | Alta                   | Baja              |
+| Quiz                             | -           | Alta                   | Baja              |
+[Enlace al pdf](P2/3.UserFlow/TaskAnalysis.pdf)
+
+- User Flows
+Se han realizado dos para mayor claridad, uno para el curso general de la página y un segundo para especificamente el inicio de sesión.
+
+![User Flow General](P2/3.UserFlow/UserFlow.png)
+
+![User Flow Inicio de Sesion](P2/3.UserFlow/UserFlowIniciarSesion.png)
+
 
 
 ### 2.c IA: Sitemap + Labelling 
