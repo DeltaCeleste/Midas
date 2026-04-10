@@ -5,14 +5,7 @@ Prácticas Diseño Interfaces de Usuario (Tema: .... )
 * [Guía para crea tu Case Study](Guia_CaseStudy.md)
 * Sala de la Fama [DIU Hall of fame](https://github.com/mgea/DIU/tree/master/hall_of_fame) donde se pueden encontrar Case Study destacados de otros años.
 
-
-
-
 Actualizado: 14/01/2026
-
-
-
-
 ## Paso 0 My UX-Case Study
 ![Método UX](img/caseStudy.png) 
 -----
@@ -125,6 +118,10 @@ Por estas razones, nuestra propuesta es la de diseñar una interfaz visualmente 
 Hemos realizado un empathy map como forma de analizar los puntos más relevantes e importantes para nuestras personas ficticias previamente presentadas en lo que encontrar un nuevo restaurante anime japonés se refiere. Esto nos servirá para tener en cuenta preocupaciones y expectativas de los usuarios y poder modelar a partir de aquí.
 
 ![EmpathyMap](P2/1.EmpathyMap/EmpathyCustomerMap.png)
+
+También desarrollamos de manera más superficial un Capture Grid para asentar aún más nuestro análisis previo.
+
+![EmpathyMap](P2/1.EmpathyMap/CaptureGrid.png)
 
 ### 2.b ScopeCanvas
 ![Método UX](img/ScopeCanvas.png)
