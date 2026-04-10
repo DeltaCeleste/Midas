@@ -167,14 +167,58 @@ Se han realizado dos para mayor claridad, uno para el curso general de la págin
 ![Site Map](P2/4.SiteMap/SiteMap.png)
 
 
+Labelling
 
+| Label                  | Descripción                                                                                       |
+| ---------------------- | ------------------------------------------------------------------------------------------------- |
+| Homepage               | Página principal de la web                                                                        |
+| Contactos              | Página de visualización de la ubicación de                                                        |
+| Redes Sociales         | Enlaces a nuestras redes sociales                                                                 |
+| Selección de Idioma    | Funcionalidad para seleccionar el idioma de la página                                             |
+| Umai                   | Página con información de nuestra marca                                                           |
+| ¿Quiénes somos?        | Sección que habla de nuestra empresa                                                              |
+| Q&A                    | Sección de preguntas frecuentes                                                                   |
+| Términos y condiciones | Sección donde se puede profundizar con nuestras condiciones de uso                                |
+| Carta                  | Página que muestra la carta del restaurante                                                       |
+| Filtros de búsqueda    | Funcionalidad sobre la carta para restringir la selección a productos con propiedades específicas |
+| Buscador               | Funcionalidad sobre la carta para buscar en la carta por nombre o ingredientes                    |
+| Reservas               | Página dedicada al sistema de reservas                                                            |
+| Ver disponibilidad     | Funcionalidad que permite ver la disponibilidad del local en una fecha concreta                   |
+| Realizar reserva       | Funcionalidad que permite realizar una reserva                                                    |
+| Ver reserva            | Funcionalidad que permite revisar los datos de una reserva                                        |
+| Modificar reserva      | Funcionalidad que permite modificar los datos asociados a una reserva                             |
+| Cancelar reserva       | Funcionalidad que permite cancelar los datos asociados a una reserva                              |
+| Cuenta                 | Sección para revisar lo relacionado con la cuenta                                                 |
+| Iniciar Sesión         | Página para permitir iniciar sesión si aun la sesión no está iniciada                             |
+| Registrarse            | Página para permitir registrarse si la sesión no está iniciada y no se dispone de cuenta.         |
+| Sesión                 | Página que expone los datos relevantes a la cuenta                                                |
+| Quiz                   | Funcionalidad para realizar una pregunta de quiz para intentar obtener un cupón                   |
+| Ver cupones            | Funcionalidad para ver los cupones asociados a la cuenta de la sesión                             |
+| Datos de la cuenta     | Página para visualizar los datos de la cuenta                                                     |
+| Editar cuenta          | Funcionalidad para editar los datos de la cuenta                                                  |
+| Eliminar cuenta        | Funcionalidad para borrar la cuenta                                                               |
+[Enlace a pdf](P2/4.SiteMap/labelling.pdf)
 
 ### 2.d Wireframes
 ![Método UX](img/Wireframes.png) 
 -----
+- [Bocetos](P2/5.Wireframes/Bocetos.pdf)
+- Wireframes:
+![About us](P2/5.Wireframes/AboutUs.png)
+![About us](P2/5.Wireframes/AboutUsMovil.png)
+![Carta](P2/5.Wireframes/Carta.png)
+![Carta](P2/5.Wireframes/CartaMovil.png)
+![Cupones](P2/5.Wireframes/Cupones.png)
+![Cupones](P2/5.Wireframes/CuponesMovil.png)
+![IniciarSesion](P2/5.Wireframes/IniciarSesion.png)
+![IniciarSesion](P2/5.Wireframes/IniciarSesionMovil.png)
+![Quiz](P2/5.Wireframes/Quiz.png)
+![Quiz](P2/5.Wireframes/QuizMovil.png)
+![About us](P2/5.Wireframes/Reserva.png)
+![About us](P2/5.Wireframes/ReservaMovil.png)
+![About us](P2/5.Wireframes/ReservaMovil2.png)
 
->>> Plantear el diseño del layout para Web/movil (organización y simulación). Describa la herramienta usada 
-
+[Enlace al pdf](P2/5.Wireframes/Wireframes.pdf)
 <br>
 
 ## Paso 3. Mi UX-Case Study (diseño)
