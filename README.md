@@ -49,6 +49,7 @@ Este proyecto investiga la intersección entre la gastronomía japonesa y el uni
 
 El objetivo es diseñar una interfaz que vaya más alla de la mera transacción, convirtiéndose en una herramienta estratégica de retención y optimización del servicio. Buscamos validar qué atributos específicos influyen en la experiencia del usuario. De este modo, lograremos capitalizar las carencias detectadas en nuestros competidores y posicionar nuestra plataforma como una solución superior, atractiva y altamente funcional para cualquier tipo de usuario.
 
+![](P1/1.UserResearchPlan/URP.png)
 [Enlace al pdf](P1/1.UserResearchPlan/URP.pdf)
 
 
