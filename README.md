@@ -167,34 +167,34 @@ Se han realizado dos para mayor claridad, uno para el curso general de la págin
 
 Labelling
 
-| Label                  | Descripción                                                                                       |
-| ---------------------- | ------------------------------------------------------------------------------------------------- |
-| Homepage               | Página principal de la web                                                                        |
-| Contactos              | Página de visualización de la ubicación de                                                        |
-| Redes Sociales         | Enlaces a nuestras redes sociales                                                                 |
-| Selección de Idioma    | Funcionalidad para seleccionar el idioma de la página                                             |
-| Umai                   | Página con información de nuestra marca                                                           |
-| ¿Quiénes somos?        | Sección que habla de nuestra empresa                                                              |
-| Q&A                    | Sección de preguntas frecuentes                                                                   |
-| Términos y condiciones | Sección donde se puede profundizar con nuestras condiciones de uso                                |
-| Carta                  | Página que muestra la carta del restaurante                                                       |
-| Filtros de búsqueda    | Funcionalidad sobre la carta para restringir la selección a productos con propiedades específicas |
-| Buscador               | Funcionalidad sobre la carta para buscar en la carta por nombre o ingredientes                    |
-| Reservas               | Página dedicada al sistema de reservas                                                            |
-| Ver disponibilidad     | Funcionalidad que permite ver la disponibilidad del local en una fecha concreta                   |
-| Realizar reserva       | Funcionalidad que permite realizar una reserva                                                    |
-| Ver reserva            | Funcionalidad que permite revisar los datos de una reserva                                        |
-| Modificar reserva      | Funcionalidad que permite modificar los datos asociados a una reserva                             |
-| Cancelar reserva       | Funcionalidad que permite cancelar los datos asociados a una reserva                              |
-| Cuenta                 | Sección para revisar lo relacionado con la cuenta                                                 |
-| Iniciar Sesión         | Página para permitir iniciar sesión si aun la sesión no está iniciada                             |
-| Registrarse            | Página para permitir registrarse si la sesión no está iniciada y no se dispone de cuenta.         |
-| Sesión                 | Página que expone los datos relevantes a la cuenta                                                |
-| Quiz                   | Funcionalidad para realizar una pregunta de quiz para intentar obtener un cupón                   |
-| Ver cupones            | Funcionalidad para ver los cupones asociados a la cuenta de la sesión                             |
-| Datos de la cuenta     | Página para visualizar los datos de la cuenta                                                     |
-| Editar cuenta          | Funcionalidad para editar los datos de la cuenta                                                  |
-| Eliminar cuenta        | Funcionalidad para borrar la cuenta                                                               |
+| Label                  | Descripción                                                                                                                                                                                                                             |
+| ---------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Homepage               | Página principal de la web                                                                                                                                                                                                              |
+| Contactos              | Página de visualización de la ubicación de                                                                                                                                                                                              |
+| Redes Sociales         | Enlaces a nuestras redes sociales                                                                                                                                                                                                       |
+| Selección de Idioma    | Funcionalidad para seleccionar el idioma de la página                                                                                                                                                                                   |
+| Umai                   | Página con información de nuestra marca                                                                                                                                                                                                 |
+| ¿Quiénes somos?        | Sección que habla de nuestra empresa                                                                                                                                                                                                    |
+| Q&A                    | Sección de preguntas frecuentes                                                                                                                                                                                                         |
+| Términos y condiciones | Sección donde se puede profundizar con nuestras condiciones de uso                                                                                                                                                                      |
+| Carta                  | Página que muestra la carta del restaurante                                                                                                                                                                                             |
+| Filtros de búsqueda    | Funcionalidad sobre la carta para restringir la selección a productos con propiedades específicas                                                                                                                                       |
+| Buscador               | Funcionalidad sobre la carta para buscar en la carta por nombre o ingredientes                                                                                                                                                          |
+| Reservas               | Página dedicada al sistema de reservas                                                                                                                                                                                                  |
+| Ver disponibilidad     | Funcionalidad que permite ver la disponibilidad del local en una fecha concreta                                                                                                                                                         |
+| Realizar reserva       | Funcionalidad que permite realizar una reserva en base a los datos introducidos en la página de la reserva. Si el input del mapa está vacío, el botón "Sorpréndeme" escogerá una opción aleatoria, si no, "Aceptar" confirma los datos. |
+| Ver reserva            | Funcionalidad que permite revisar los datos de una reserva                                                                                                                                                                              |
+| Modificar reserva      | Funcionalidad que permite modificar los datos asociados a una reserva                                                                                                                                                                   |
+| Cancelar reserva       | Funcionalidad que permite cancelar los datos asociados a una reserva                                                                                                                                                                    |
+| Cuenta                 | Sección para revisar lo relacionado con la cuenta                                                                                                                                                                                       |
+| Iniciar Sesión         | Página para permitir iniciar sesión si aun la sesión no está iniciada                                                                                                                                                                   |
+| Registrarse            | Página para permitir registrarse si la sesión no está iniciada y no se dispone de cuenta.                                                                                                                                               |
+| Sesión                 | Página que expone los datos relevantes a la cuenta                                                                                                                                                                                      |
+| Quiz                   | Funcionalidad para realizar una pregunta de quiz para intentar obtener un cupón                                                                                                                                                         |
+| Ver cupones            | Funcionalidad para ver los cupones asociados a la cuenta de la sesión                                                                                                                                                                   |
+| Datos de la cuenta     | Página para visualizar los datos de la cuenta                                                                                                                                                                                           |
+| Editar cuenta          | Funcionalidad para editar los datos de la cuenta                                                                                                                                                                                        |
+| Eliminar cuenta        | Funcionalidad para borrar la cuenta                                                                                                                                                                                                     |
 [Enlace a pdf](P2/4.SiteMap/labelling.pdf)
 
 ### 2.d Wireframes
