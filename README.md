@@ -21,8 +21,7 @@ Descripción:
 Un restaurante de comida japonesa tematizado en la diversidad cultural de las distintas zonas de Japón. Umai! busca acompañar al usuario a un viaje virtual a las distintas zonas de japón ilustrando particularidades locales con elementos popularizados como el anime, la música o gastronomía específica.
 
 Logotipo: 
-
->>> Si diseña un logotipo para su producto en la práctica 3 pongalo aqui, a un tamaño adecuado. Si diseña un slogan añadalo aquí
+![icono](P3/icono.png)
 
 Miembros y nombre del equipo:
  * :bust_in_silhouette:  Minerva Cebrián Marín   :octocat: https://github.com/mine1712    
@@ -227,33 +226,73 @@ Labelling
 ### 3.a Moodboard
 ![Método UX](img/moodboard.png)
 -----
-
->>> Diseño visual con una guía de estilos visual (moodboard) 
->>> Incluir Logotipo. Todos los recursos estarán subidos a la carpeta P3/
->>> Explique aqui la/s herramienta/s utilizada/s y el por qué de la resolución empleada. Reflexione ¿Se puede usar esta imagen como cabecera de Instagram, por ejemplo, o se necesitan otras?
+![moodboard](P3/1.Moodboard/Moodboard.png)
 
 
 ### 3.b Landing Page
 ![Método UX](img/landing-page.png) 
 ----
+![Landing Page](P3/2.LandingPage/LandingPage.png)
 
->>> Plantear el Landing Page del producto. Aplica estilos definidos en el moodboard
+Este es el resultado final de landing page que hemos obtenido tras iterar con Figma Make repetidas veces, el cual servirá de inspiración para la landing page que hemos realizado por nuestra cuenta y se mostrará en el apartado *3.d*
 
 
 ### 3.c Guidelines
 ![Método UX](img/guidelines.png) 
 ----
+Empecemos con la definición de las foundations:
+- Código de colores:
+![Código de colores](P3/3.Guidelines/Colores.png)
+- Arquitectura Tipográfica:
+![Tipografía](P3/3.Guidelines/Typography.png)
+- Grid & Spacing: todo lo relevante se encuntra explicado en el [pdf](P3/3.Guidelines/Grid&Spacing.pdf), la información relvante indica
 
->>> Estudio de Guidelines y explicación de los Patrones IU a usar 
->>> Es decir, tras documentarse, muestre las deciones tomadas sobre Patrones IU a usar para la fase siguiente de prototipado. 
+En cuanto al diseño atómicos, empezamos desarrollando varios componentes más simples y algunos interactivos:
+- Selector de idioma: un desplegable que permitirá la selección del idioma mediante un intuitivo selector de banderas representante de los idiomas ofrecidos
+- Botones: diseño de botones para la págia. Disponen de interacciones con el ratón ante el hover y click.
+- Input: Unidad básica de textbox con etiqueta incluida y algunas variantes.
+- Desplegable: un menú desplegable de uso general
+- Video: Un reproductor de video para la LandingPage. No es tan básico como el resto pero suficientemente simple y no se emplea en otros organismos. 
+![Básicos](P3/3.Guidelines/Basicos.png)
 
+A partir de estos componentes y otros básicos desarrollamos también diversos organismos para componer nuestra página de manera sencilla, modular y con capacidad de ser modificada con relativa facilidad:
+- Header: el header de la página
+- Menú Carta: un menú con utilidades para actuar sobre la carta (filtros, secciones y búsqueda)
+- Footer: el footer de la página
+- Quiz: El template para una pregunta del quiz
+- Login: templete para el formulario de inicio de sesión
+- Item: template para un item de la carta
+- Cupon: template para un cupon
+- Formulario: un template para un formulario con varios campos de texto
+![Organismos](P3/3.Guidelines/Organismos.png)
 
 ### 3.d Mockup
 ![Método UX](img/mockup.png) 
 ----
+![LandingPage Final](P3/4.HiFi/Desktop-LandingPage.png)
 
->>> Consiste en tener un Layout en acción. Un Mockup es un prototipo HTML que permite simular tareas con estilo de IU seleccionado. Muy útil para compartir con stakeholders
+Esta es nuestra implementación de la landing page previamente mencionada, una aproximación de lo que nos otorgó Figma Make. Hemos optado por un diseño sobrio que dispone unicamente del video presentación y el botón que lleva directamente a la carta.
 
+![LandingPage Final](P3/4.HiFi/Desktop-Carta.png)
+
+![LandingPage Final](P3/4.HiFi/Desktop-Reservas.png)
+
+![LandingPage Final](P3/4.HiFi/Desktop-Login.png)
+
+![LandingPage Final](P3/4.HiFi/Desktop-SignUp.png)
+
+
+![LandingPage Final](P3/4.HiFi/Desktop-Cupones.png)
+
+![LandingPage Final](P3/4.HiFi/Desktop-Quiz.png)
+
+![LandingPage Final](P3/4.HiFi/Editarperfil.png)
+
+### 3.5 Briefing
+
+Para el diseño solo hemos empleado Figma Make para la landing page como hemos indicado previamente. Debido a la cantidad de iteraciones con la herramienta para sacar algo que nos interesara no podemos concluir que su efectividad haya sido grandiosa, pero tampoco podemos desestimarla.
+
+En cuanto al diseño, lo ya expuesto, nuestro diseño modular nos permite de manera sencilla modificaciones y mantenimiento del diseño en función de las necesidades que puedan surgir.
 
 <br>
 
