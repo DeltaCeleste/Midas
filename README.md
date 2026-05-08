@@ -273,20 +273,19 @@ A partir de estos componentes y otros básicos desarrollamos también diversos o
 
 Esta es nuestra implementación de la landing page previamente mencionada, una aproximación de lo que nos otorgó Figma Make. Hemos optado por un diseño sobrio que dispone unicamente del video presentación y el botón que lleva directamente a la carta.
 
-![LandingPage Final](P3/4.HiFi/Desktop-Carta.png)
+![Cartas](P3/4.HiFi/Desktop-Carta.png)
 
-![LandingPage Final](P3/4.HiFi/Desktop-Reservas.png)
+![Reservas](P3/4.HiFi/Desktop-Reservas.png)
 
-![LandingPage Final](P3/4.HiFi/Desktop-Login.png)
+![Login](P3/4.HiFi/Desktop-Login.png)
 
-![LandingPage Final](P3/4.HiFi/Desktop-SignUp.png)
+![Sing up](P3/4.HiFi/Desktop-SignUp.png)
 
+![Cupones](P3/4.HiFi/Desktop-Cupones.png)
 
-![LandingPage Final](P3/4.HiFi/Desktop-Cupones.png)
+![Quiz](P3/4.HiFi/Desktop-Quiz.png)
 
-![LandingPage Final](P3/4.HiFi/Desktop-Quiz.png)
-
-![LandingPage Final](P3/4.HiFi/Editarperfil.png)
+![Editar Perfil](P3/4.HiFi/Editarperfil.png)
 
 ### 3.5 Briefing
 
