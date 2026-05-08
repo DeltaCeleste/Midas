@@ -279,7 +279,7 @@ Esta es nuestra implementación de la landing page previamente mencionada, una a
 
 ![Login](P3/4.HiFi/Desktop-Login.png)
 
-![Sing up](P3/4.HiFi/Desktop-SignUp.png)
+![Sing up](P3/4.HiFi/Desktop-Signup.png)
 
 ![Cupones](P3/4.HiFi/Desktop-Cupones.png)
 
