@@ -200,7 +200,7 @@ Labelling
 ### 2.d Wireframes
 ![Método UX](img/Wireframes.png) 
 -----
-- [Bocetos](P2/5.Wireframes/Bocetos.pdf)
+- [Bocetos](P2/5.Wireframes/Boceto.pdf)
 - Wireframes:
 ![About us](P2/5.Wireframes/AboutUs.png)
 ![About us](P2/5.Wireframes/AboutUsMovil.png)
