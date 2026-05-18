@@ -306,16 +306,19 @@ En cuanto al diseño, lo ya expuesto, nuestro diseño modular nos permite de man
 
 Nuestro equipos, debido a problemas con la exportación relacionado con bloqueos por muros de pago de las extensiones recomendadas, mantiene el prototipo expuesto en el punto anterior desde el propio Figma.
 
+Este es el [Link](https://www.figma.com/proto/5599bAd9JEF8Fc1MMIjFdu/DIU_Toolkit_Framework--2026---Copia-?node-id=5895-2897&p=f&t=9fjYt6pt1tJ6kOVx-1&scaling=scale-down&content-scaling=fixed&page-id=5733%3A7853&starting-point-node-id=5895%3A2897) para ver el prototipo. Al habernos quedado en Figma, las funcionalidades no están implementadas en su mayoría, pero el prototipo cumple su propósito de manera consistente sirviendo como guía intuitiva de lo que debe ser el producto final.
 
 
-### 5.b Documentación con Storybook
+### 4.b Documentación con Storybook
 ![Método UX](img/usabilityReview.png)
 ----
 
->>> Breve descripción de esta tarea. Las evidencias de este paso quedan subidas a P5/
+En su mayoría, los componentes han sido documentados con anterioridad, para este punto y para mejorar un poco la experiencia visual se han actualizado algunos de los que ya teníamos para que reaccionen al usuario.
+
+![item-cards](P4/1.componentes/item-cards.png)
 
 
-## Paso 4. Pruebas de Evaluación 
+## Paso 5. Pruebas de Evaluación 
 
 ### 4.a Reclutamiento de usuarios 
 ![Método UX](img/usability-testing.png)
