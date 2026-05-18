@@ -295,6 +295,24 @@ En cuanto al diseño, lo ya expuesto, nuestro diseño modular nos permite de man
 
 <br>
 
+## Paso 4. Exportación y Documentación 
+
+
+### 4.a Exportación a HTML/React
+![Método UX](img/usabilityReview.png) 
+----
+
+Nuestro equipos, debido a problemas con la exportación relacionado con bloqueos por muros de pago de las extensiones recomendadas, mantiene el prototipo expuesto en el punto anterior desde el propio Figma.
+
+
+
+### 5.b Documentación con Storybook
+![Método UX](img/usabilityReview.png)
+----
+
+>>> Breve descripción de esta tarea. Las evidencias de este paso quedan subidas a P5/
+
+
 ## Paso 4. Pruebas de Evaluación 
 
 ### 4.a Reclutamiento de usuarios 
@@ -364,21 +382,6 @@ Para más información, consultar aquí sobre la [metodología SUS](https://cui.
 
 <br>
 
-## Paso 5. Exportación y Documentación 
-
-
-### 5.a Exportación a HTML/React
-![Método UX](img/usabilityReview.png) 
-----
-
->>> Breve descripción de esta tarea. Las evidencias de este paso quedan subidas a P5/
-
-
-### 5.b Documentación con Storybook
-![Método UX](img/usabilityReview.png)
-----
-
->>> Breve descripción de esta tarea. Las evidencias de este paso quedan subidas a P5/
 
 
 <br>
