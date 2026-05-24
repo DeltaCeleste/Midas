@@ -6,10 +6,10 @@
 
 Antes de entrar en detalles, define el alcance.
 
-- **Nombre del proyecto:** (Diseño A o Diseño B).
+- **Nombre del proyecto:** Graná en Grano
 - **Normativa de referencia:** WCAG 2.1 o 2.2 (Nivel AA).
-- **Herramientas utilizadas:** (Ej: Lighthouse, WAVE, axe DevTools).
-- **Fecha de la auditoría:** El estado de la web cambia, es vital poner fecha.
+- **Herramientas utilizadas:** WAVE, Web Disability Simulator
+- **Fecha de la auditoría:** 28/05/2026
 
 
 

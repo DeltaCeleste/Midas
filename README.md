@@ -324,24 +324,16 @@ En su mayoría, los componentes han sido documentados con anterioridad, para est
 ![Método UX](img/usability-testing.png)
 -----
 
-
-| Usuarios | Sexo/Edad     | Ocupación   |  Exp.TIC    | Personalidad | Plataforma | Caso
-| ------------- | -------- | ----------- | ----------- | -----------  | ---------- | ----
-| User1's name  | H / 18   | Estudiante  | Media       | Introvertido | Web.       | A 
-| User2's name  | H / 18   | Estudiante  | Media       | Timido       | Web        | A 
-| User3's name  | M / 35   | Abogado     | Baja        | Emocional    | móvil      | B 
-| User4's name  | H / 18   | Estudiante  | Media       | Racional     | Web        | B 
-
 Para las pruebas realizadas, las cuales se detallarán más adelante, se ha llevado a cabo un reclutamiento de usuarios para hacer de testers. Se han buscando perfiles distintos, centrándonos en especial en grupos con diferentes niveles de experiencia con Tecnologías Informáticas.
 
 | Usuario | Sexo/Edad | Ocupación  | Exp. TIC | Personalidad | Plataforma | Caso |
 | ------- | --------- | ---------- | -------- | ------------ | ---------- | ---- |
+| Carlos  | H / 20    | Estudiante | alta     | Reservada    | Web        | A    |
 |         |           | Estudiante | alta     |              | Web        | A    |
-|         |           | Estudiante | alta     |              | Web        | A    |
-|         |           | Estudiante | alta     |              | Web        | A    |
-|         |           |            | media    |              | Web        | A    |
-|         |           |            | baja     |              | Web        | A    |
-|         |           |            | alta     |              | Web        | B    |
+| Gabriel | H / 27    | Estudiante | alta     |              | Web        | A    |
+| Diana   | M / 22    | Estudiante | media    | Extrovertida | Web        | A    |
+| Juan    | H / 80    | Jubilado   | baja     | Emocional    | Web        | A    |
+| Jelen   | M / 23    | Estudiante | alta     | Social       | Web        | B    |
 |         |           |            | alta     |              | Web        | B    |
 |         |           |            | media    |              | Web        | B    |
 |         |           |            | media    |              | Web        | B    |
