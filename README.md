@@ -320,13 +320,9 @@ En su mayoría, los componentes han sido documentados con anterioridad, para est
 
 ## Paso 5. Pruebas de Evaluación 
 
-### 4.a Reclutamiento de usuarios 
+### 5.a Reclutamiento de usuarios 
 ![Método UX](img/usability-testing.png)
 -----
-
->>> Breve descripción del caso asignado (llamado Caso-B) con enlace al repositorio Github
->>> Tabla y asignación de personas ficticias (o reales) a las pruebas. Exprese las ideas de posibles situaciones conflictivas de esa persona en las propuestas evaluadas. Mínimo 4 usuarios: asigne 2 al Caso A y 2 al caso B.
-
 
 
 | Usuarios | Sexo/Edad     | Ocupación   |  Exp.TIC    | Personalidad | Plataforma | Caso
@@ -336,16 +332,36 @@ En su mayoría, los componentes han sido documentados con anterioridad, para est
 | User3's name  | M / 35   | Abogado     | Baja        | Emocional    | móvil      | B 
 | User4's name  | H / 18   | Estudiante  | Media       | Racional     | Web        | B 
 
+Para las pruebas realizadas, las cuales se detallarán más adelante, se ha llevado a cabo un reclutamiento de usuarios para hacer de testers. Se han buscando perfiles distintos, centrándonos en especial en grupos con diferentes niveles de experiencia con Tecnologías Informáticas.
 
-### 4.b Diseño de las pruebas 
+| Usuario | Sexo/Edad | Ocupación  | Exp. TIC | Personalidad | Plataforma | Caso |
+| ------- | --------- | ---------- | -------- | ------------ | ---------- | ---- |
+|         |           | Estudiante | alta     |              | Web        | A    |
+|         |           | Estudiante | alta     |              | Web        | A    |
+|         |           | Estudiante | alta     |              | Web        | A    |
+|         |           |            | media    |              | Web        | A    |
+|         |           |            | baja     |              | Web        | A    |
+|         |           |            | alta     |              | Web        | B    |
+|         |           |            | alta     |              | Web        | B    |
+|         |           |            | media    |              | Web        | B    |
+|         |           |            | media    |              | Web        | B    |
+|         |           |            | baja     |              | Web        | B    |
+
+
+
+### 5.b Diseño de las pruebas 
 ![Método UX](img/usability-testing.png) 
 -----
+Para evaluar la usabilidad de los dos casos realizaremos 3 tipos de pruebas que se complementan entre sí.
 
->>> Planifique qué pruebas se van a desarrollar. ¿En qué consisten? ¿Se hará uso del checklist de la P1?
+En primer lugar, una prueba A/B Testing, siendo el caso A nuestro proyecto (Umai!) y el caso B, un proyecto de otro grupo (Graná en Grano). Para esta prueba hemos fijado dos objetivos que cada usuario debe tratar de cumplir. Con él veremos si la estructura y exposición de información es suficientemente clara para que los usuarios cumplan tareas específicas.
+
+A continuación, tras haber interactuado con la página, los usuarios completaron el cuestionario SUS. Este consta de 10 preguntas que evalúan cuestiones de comodidad y facilidad de uso. Se considera que los resultados son aceptables a partir de una puntuación de 70.
+
+En última instancia, mientras se desarrollaba la navegación para el A/B testing se ha llevado a cabo una prueba de eye tracking, la cual nos permite ver los elementos que acaparan la atención del usuario, tanto para bien como para mal. Junto con las otras pruebas, nos permitirá refinar elementos para hacer más óptima la navegación.
 
 
-
-### 4.c Cuestionario SUS
+### 5.c Cuestionario SUS
 ![Método UX](img/Survey.png) 
 ----
 
@@ -355,26 +371,47 @@ Para más información, consultar aquí sobre la [metodología SUS](https://cui.
 >>> Adjuntar en la carpeta P4/ el excel resultante y describa aquí la valoración personal de los resultados 
 
 
-### 4.d A/B Testing
+### 5.d A/B Testing
 ![Método UX](img/ABtesting.png) 
 -----
+Veamos las 2 pruebas que hemos determinado para el A/B Testing:
+- Prueba 1: Llegar a la carta. Una actividad simple e indispensable en este tipo de webs. Para el caso A (restaurante) es la propia carta, en cuanto al caso B (tienda de café), consideramos por carta  su selección de tipos de café
+- Prueba 2: Iniciar sesión. En el caso B, debido a una aparente ausencia de la capacidad de crear cuentas e iniciar sesión, consideramos el apartado del carrito (y realizar un pedido) como tal.
 
->>> Los resultados de un A/B testing con 3 pruebas y 2 casos o alternativas daría como resultado una tabla de 3 filas y 2 columnas, además de un resultado agregado global. Especifique con claridad el resultado: qué caso es más usable, A o B?
+| Prueba | Métrica                                  | Caso A | Caso B |
+| ------ | ---------------------------------------- | ------ | ------ |
+| 1      | Acceder y navegar la carta correctamente | Sí     | Sí     |
+| 2      | Poder iniciar sesión/hacer un pedido     | Sí     | Sí     |
 
-### 4.e Aplicación del método Eye Tracking 
+
+### 5.e Aplicación del método Eye Tracking 
 ![Método UX](img/eye-tracking.png)
 ----
 
->>> Indica cómo se diseña el experimento y se reclutan los usuarios. Explica la herramienta / uso de gazerecorder.com u otra similar. Aplíquese únicamente al caso B.
+Para realizar el heatmap hemos hecho uso de la herramienta GazeMapping, que registra la mirada y los clicks de los usuarios.
 
+Para el análisis veremos los mapas de calor de cada caso (A/B) y tarea por separado
 
-![experimento](img/experimentoET.png)  
->>> Cambiar esta img por una de vuestro experimento. El recurso deberá estar subido a la carpeta P4/  
+###### Caso A
+- Prueba 1:
+![landing page](P5/A/analisis_sitio1.jpg)
+![landing page](P5/A/analisis_sitio2.jpg)
+En general, los usuarios no tuvieron ningún tipo de problema en encontrar la forma de acceder a la carta ya que es bastante directo.
+- Prueba 2:
+![landing page](P5/A/analisis_sitio4.jpg)
+![landing page](P5/A/analisis_sitio6.jpg)
+Para este caso las dos imagenes anteriores también aplican. Ninguna dificultad que comentar para este caso tampoco, en general los usuarios tardaron poco en determinar donde estaba lo que les interesaba, aunque alguno tardó un poco más por mirar primero las imagenes o hacer un escaneo primario más amplio de la página
 
->>> gazerecorder en versión de pruebas puede estar limitada a 3 usuarios para generar mapa de calor (crédito > 0 para que funcione) 
+###### Caso B
+- Prueba 1:
+![landing page](P5/B/analisis_sitio10.jpg)
+![landing page](P5/B/analisis_sitio12.jpg)
+Para este caso, los usuarios tampoco presentaron mayores dificultados ya que también era de fácil acceso. Lo más destacable que revela el mapa de calor es que, pese a tener los cafés también en la página principal, debido al tamaño de la página, no todos los usuarios bajaron lo suficiente como para encontrarlos (incluso hubo quien bajó pero no le dio importancia y se metió igualmente por el enlace sin saber que los había localizado).
+- Prueba 2:
+![landing page](P5/B/analisis_sitio11.jpg)
+En este caso tampoco ha habido problema. Siendo la segunda prueba de esta página, los usuarios han ido más a tiro hecho. Además la página del carrito esta muy bien condensada.
 
-
-### 4.f Usability Report de B
+### 5.f Usability Report de B
 ![Método UX](img/usability-report.png) 
 -----
 
