@@ -4,74 +4,60 @@
 
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRF017nhV-TFmNER2OM8UbXtdN6xwAKBYrv0i6onNfKu6Yn0BV0RK6aiOroeXl73LSY-B0&usqp=CAU" alt="usability Download png" style="height:150px" />
 
-### Evaluación de usabilidad del proyecto [Graná en Grado]
+### Evaluación de usabilidad del proyecto Graná en Grado
 
-[28/06/2026]
+Fecha: 28/06/2026
 
-[img Proyecto]
+![img Proyecto](P5/UsabilityReport/LogoCafeteria.png)
 
-[Enlace a GITHUB del proyecto]
+[Enlace a GITHUB del proyecto](https://github.com/maximartinm/UX_CaseStudy)
 
 ### Realizado por:  
 
-[Informe realizado por Equipo (quien hace el report) explicar brevemente vuestra experiencia ]
+Informe realizado por el equipo DIU1-Midas
 
-
- 
+Su estilo espacioso y poco cargado hace la navegación rápida y accesible si sabes donde mirar, sin embargo, ese sentimiento de espacio puede provocar una distracción en los elementos existente que tienden a destacar en el contraste del vacío. Esto puede ser una gran fortaleza si los elementos mostrados son los que se buscan, pero si no, puede llevar a perdidas de tiempo para algunos usuarios que focalicen su atención donde no deben.
 
 
 ## 1 RESUMEN EJECUTIVO  (Executive Summary)
 
-[ Es la sección más importante para los interesados (stakeholders). Debe ocupar una sola página] .
-
-- **Objetivo:** ¿Qué evaluamos y por qué?
-- **Metodología:** Breve mención del A/B Testing, SUS y Eye Tracking.
-- **Principales Hallazgos:** Los 3 puntos más críticos encontrados.
-- **Resultado Global:** Puntuación SUS media y si el diseño es "Aceptable" o no.
+- **Objetivo:** Evaluamos la usabilidad de la página para su uso por un público general de cara a lanzarla
+- **Metodología:** A/B testing de dos pruebas seguido de un test SUS y realizando un eye tracking mientras el usuario realizaba las pruebas.
+- **Principales Hallazgos:** su estilo abierto y espacioso provoca dispersiones de atención o focalizaciones en elementos que no tienen porque ser los deseados.
+- **Resultado Global:** Puntuación SUS media de **86,25**, lo que lo posiciona como decentemente aceptable pero con algo de margen de mejora.
 
 
 ## 2. Metodología y Reclutamiento
 
-[Describe el "cómo"]
-
-- **Perfil de los participantes:** Resumen de la tabla demográfica (edad media, nivel digital).
-- **Escenario de la prueba:** Descripción de las tareas que realizaron los usuarios.
-- **Herramientas:** Mención de **GazeMapping**, Tally y herramientas de accesibilidad.
+- **Perfil de los participantes:** Se han buscando perfiles distintos, centrándonos en especial en grupos con diferentes niveles de experiencia con Tecnologías Informáticas.
+- **Escenario de la prueba:** Los usuarios realizaron dos pruebas, buscar acceder a la carta del sitio e iniciar sesion/realizar pedido.
+- **Herramientas:** GazeMapping, Tally, Wave, Web Disability Simulator y Lighthouse Accessibility.
 
 ## 3. Resultados del Cuestionario SUS (Datos Cuantitativos)
 
-[Aquí se muestran datos del análisis multivariable de SUS] 
+- **Comparativa A vs. B:** ![Diagrama](P5/UsabilityReport/barras.png)
+Nuestro caso A ha obtenido una mejor puntuación media, aunque la diferencia tampoco es demasiado grande.
+- **Desglose por ítems:** Las preguntas del test SUS dieron un rendimiento bastante parejo, la más destacable podría ser la pregunta 10, que es la única que ha obtenido un 3, aunque esto puede deberse al rango de edad y experiencia TIC concreto.
 
-- **Comparativa A vs. B:** Un gráfico de barras comparando la puntuación final de ambos diseños.
-- **Desglose por ítems:** Identifica qué preguntas del SUS tuvieron peor puntuación (por ejemplo, si la pregunta 2 sobre "complejidad" fue muy alta en el Diseño B).
-
-Valoración numérica del SUS - 
+Valoración numérica del SUS - **86,25**
 
 
 ## 4. Análisis de Eye Tracking (Datos Biométricos)
 
-[Presenta la evidencia visual del comportamiento del usuario]
-
-- **Heatmaps (Mapas de calor):** Incluye las capturas de GazeMapping. Comenta si los usuarios miraron los **POI** (Puntos de Interés) definidos.
-- **Zonas de Silencio:** Identifica elementos importantes que fueron totalmente ignorados.
-- **Hallazgo clave:** Ejemplo: "El 80% de los usuarios ignoró el botón de CTA debido a su ubicación en el margen inferior".
+- **Heatmaps (Mapas de calor):** [[README#5.e Aplicación del método Eye Tracking|Analizados aquí]]
+- **Zonas de Silencio:** La más remarcable es la información de la página principal que se encuentra bajo la imagen de recepción.
+- **Hallazgo clave:** Casi ningún usuario trató de hacer scroll en la página principal y los que lo hicieron solo miraron por encima, no prestaron demasiada atención.
 
 ## 5. Auditoría de Accesibilidad
 
 Sintetiza el cumplimiento técnico y normativo.
 
-- **Puntuación Automática:** (Lighthouse/WAVE).
-- **Principales barreras:** Lista los errores críticos (contraste, falta de etiquetas, etc.) y cómo afectan a los usuarios con discapacidad.
+- **Puntuación Automática:** 81% (LightHouse).
+- **Principales barreras:** De manera resumida, se encuentran problemas de contraste, falta de texto y falta de etiquetas. [[Acceibility-Report-template#4. Tabla de Hallazgos y Prioridades|Enlace al documento]]
 
 ## 6. Conclusiones y Recomendaciones (Actionable Insights)
 
-No te limites a decir qué está mal; di cómo arreglarlo. Clasifica las recomendaciones por prioridad:
-
-| **Prioridad**      | **Hallazgo**                                                 | **Recomendación de Mejora**                                  |
-| ------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| **Alta (Crítica)** | Ej. El SUS indica alta complejidad y el Eye Tracking muestra confusión en el menú. | Simplificar la arquitectura de información y aumentar el tamaño de las fuentes. |
-| **Media**          | Ej. Los usuarios no ven el botón de registro rápidamente.        | Cambiar el color del CTA a uno de mayor contraste según WCAG. |
-| **Baja**           | Ej. El logo no redirige a la home.                               | Añadir el enlace estándar al logotipo en la cabecera.        |
-
-
-
+| **Prioridad** | **Hallazgo**                                                                                                                 | **Recomendación de Mejora**                                |
+| ------------- | ---------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------- |
+| **Media**     | La página principal es demasiado grande y espaciosa, los usuarios parecían no ser capaces de analizar lo que tenían delante. | Compactar más el contenido de la página principal,         |
+| **Media**     | La página presenta algunos problemas de cara a la accesibilidad.                                                             | Abordarlos y solucionarlos uno a uno para pulir la página. |
