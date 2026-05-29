@@ -576,11 +576,20 @@ Sintetiza el cumplimiento técnico y normativo.
 | **Media**     | La página presenta algunos problemas de cara a la accesibilidad.                                                             | Abordarlos y solucionarlos uno a uno para pulir la página. |
 
 <br>
+### Valoración personal de la práctica 5
+
+Aún estamos esperando que el grupo que nos tenía que testear haga sus pruebas.
+
+En lo que respecta a nuestras pruebas, parecen indicar que la página es suficientemente clara y simple, lo que ha permitido a nuestros usuarios poder moverse por ella incluso teniendo una cantidad de experiencias TIC limitadas o casi nulas.
 <br>
 
 ## Conclusiones finales & Valoración de las prácticas
 
 La práctica ha sido bastante interesante en líneas generales, sin embargo ha habido un punto de desorden bastante notorio que provocó, en nuestro caso, que de ir con la práctica 2 hecha con tiempo de sobra pasáramos a tener la 3, 4 y 5 en sucesión más rápida, además perdidos por no saber exactamente que hacer. Siento que si hubiéramos tenido una mejor capcitación que nos enseñara a usar Figma y exprimir su potencia, la experiencia hubiera sido bastante más gratificante, sin embargo se nos queda una sensación de que hemos intentado usar Figma de manera no completamente fructífera mientras algunos compañeros le han dedicado el mínimo usando Figma Make y conformandose con los resultados.
+
+Dejando esto de lado, las prácticas nos han aportado un cambio de mentalidad y enfoque muy fresco comparado con lo que hemos venido viendo hasta ahora. Hemos pasado de pensar en como estructurar una aplicación para que funcione y haga lo que tiene que hacer, a preocuparnos porque la apariencia de esta sea adecuada y aceptable para los usuarios que pueden llegar a usarla, llegando así con facilidad al mayor número de clientes posible. A efectos prácticos, nos ha dado una ducha de humildad y desde luego ahora recordaremos este proceso cuando se nos ocurra criticar la interfaz o navegabilidad de una aplicación (ahora podemos hacerlo con total conocimiento).
+
+En adición, quitando lo anteriormente mencionado, Figma parece prometer bastante, como mínimo elimina todo el proceso tedioso de construcción de una interfaz bonita y ordenada y ahora tenemos una aproximación a esta herramienta, aunque profundizar más en ella y ver su potencia hubiera sido probablemente un aliciente para muchos.
 
 
 
