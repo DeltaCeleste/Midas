@@ -329,15 +329,15 @@ Para las pruebas realizadas, las cuales se detallarán más adelante, se ha llev
 | Usuario | Sexo/Edad | Ocupación  | Exp. TIC | Personalidad | Plataforma | Caso |
 | ------- | --------- | ---------- | -------- | ------------ | ---------- | ---- |
 | Carlos  | H / 20    | Estudiante | alta     | Reservada    | Web        | A    |
-|         |           | Estudiante | alta     |              | Web        | A    |
-| Gabriel | H / 27    | Estudiante | alta     |              | Web        | A    |
+| Pablo   | H / 19    | Estudiante | alta     | Social       | Web        | A    |
+| Gabriel | H / 27    | Estudiante | alta     | Extrovertida | Web        | A    |
 | Diana   | M / 22    | Estudiante | media    | Extrovertida | Web        | A    |
 | Juan    | H / 80    | Jubilado   | baja     | Emocional    | Web        | A    |
 | Jelen   | M / 23    | Estudiante | alta     | Social       | Web        | B    |
-|         |           |            | alta     |              | Web        | B    |
-|         |           |            | media    |              | Web        | B    |
-|         |           |            | media    |              | Web        | B    |
-|         |           |            | baja     |              | Web        | B    |
+| Mayte   | M / 23    | Estudiante | alta     | Reservada    | Web        | B    |
+| Andrea  | M / 30    | Estudiante | media    | Extrovertida | Web        | B    |
+| José    | H / 55    | Capataz    | media    | Extrovertida | Web        | B    |
+| Soledad | M / 87    | Jubilada   | baja     | Emocional    | Web        | B    |
 
 
 
@@ -357,10 +357,11 @@ En última instancia, mientras se desarrollaba la navegación para el A/B testin
 ![Método UX](img/Survey.png) 
 ----
 
->>> Como uno de los test para la prueba A/B testing, usaremos el **Cuestionario SUS** que permite valorar la satisfacción de cada usuario con el diseño utilizado (casos A o B). Para calcular la valoración numérica y la etiqueta linguistica resultante usamos la [hoja de cálculo](https://github.com/mgea/DIU19/blob/master/Cuestionario%20SUS%20DIU.xlsx). Previamente conozca en qué consiste la escala SUS y cómo se interpretan sus resultados
-http://usabilitygeek.com/how-to-use-the-system-usability-scale-sus-to-evaluate-the-usability-of-your-website/)
-Para más información, consultar aquí sobre la [metodología SUS](https://cui.unige.ch/isi/icle-wiki/_media/ipm:test-suschapt.pdf)
->>> Adjuntar en la carpeta P4/ el excel resultante y describa aquí la valoración personal de los resultados 
+![Imagen](P5/SUS/SUS.png)
+
+**Resultados**:
+- Nuestro caso A parece haber recibido buenas valoraciones a nivel general, obteniendo un **92,75** de media (aceptabilidad de tipo A). Los usuarios alabaron principalmente la sencillez visual y facilidad de identificar donde tenían que ir.
+- En cuanto al caso B, la media se queda en **86,25** (aceptabilidad de tipo B). En este caso, los usuarios tampoco tuvieron muchas quejas, sin embargo, si notamos como examinadores que les costaba más tiempo empezar a moverse, lo que puede implicar que el diseño de la página dispersa la atención.
 
 
 ### 5.d A/B Testing
@@ -403,28 +404,183 @@ Para este caso, los usuarios tampoco presentaron mayores dificultados ya que tam
 ![landing page](P5/B/analisis_sitio11.jpg)
 En este caso tampoco ha habido problema. Siendo la segunda prueba de esta página, los usuarios han ido más a tiro hecho. Además la página del carrito esta muy bien condensada.
 
-### 5.f Usability Report de B
+### 5.f Accesability Report
+# Accesibility Report (template)
+
+<img src="https://img.uxcel.com/cdn-cgi/image/format=auto/practices/wcag-principles-overview-1742315821212/a-1742315821212-2x.jpg" alt="usability Download png" style="height:200px" />
+
+## 1. Ficha Técnica del Informe
+
+Antes de entrar en detalles, define el alcance.
+
+- **Nombre del proyecto:** Graná en Grano
+- **Normativa de referencia:** WCAG 2.1 o 2.2 (Nivel AA).
+- **Herramientas utilizadas:** WAVE, Web Disability Simulator
+- **Fecha de la auditoría:** 28/05/2026
+
+
+
+NOTA: El marco normativo para la web, el estándar es el **WCAG (Web Content Accessibility Guidelines)**.
+
+- **Nivel de conformidad:** **AA y A** (el estándar legal para sitios públicos y empresas), Versión  **WCAG 2.2**. Referencia: norma **UNE-EN 301549** 
+
+
+
+## 2. Puntuaciones Globales (Métricas Automáticas)
+Tras analizar técnicamente las métricas de diagnóstico aportadas, el sitio web presenta un estado de accesibilidad calificado como **Rango Medio (Necesita Mejora)**, obteniendo una puntuación automatizada del **81%** en la auditoría de Google Lighthouse. 
+
+Si bien cuenta con una base de desarrollo sólida reflejada en un **96% en Prácticas Recomendadas** y un **89% en Rendimiento**, la nota específica de accesibilidad se ve penalizada por fallos de diseño visual y estructural confirmados por la herramienta WAVE, la cual detectó un total de **2 errores críticos**, **6 errores de contraste de color** y **14 alertas de usabilidad**.
+
+## 3. Análisis por Principios (POUR)
+# Informe de Auditoría de Accesibilidad Web
+
+* **Sitio Web:** Graná en Grano (Prototipo en Figma / Sitio de Cafetería de Especialidad)
+* **Fecha de Evaluación:** 28 de mayo de 2026
+* **Metodología:** Análisis cruzado basado en los Principios POUR (WCAG 2.1 / 2.2) mediante el uso de herramientas automáticas de diagnóstico (Google Lighthouse y WAVE Web Accessibility Evaluation Tool).
+
+---
+
+## Valoración General de Accesibilidad
+
+En general, presente un buen nivel en cuanto a Prácticas Recomendadas y Rendimiento. En accesibilidad necesita mejoras importantes en cuánto al contraste y marcado, y además el SEO tiene una calificación crítica ya que no hace uso de prácticamente nada que potencie esto, como podría ser técnicas de indexación y uso de metadatos.
+
+### Resumen de Métricas (Google Lighthouse)
+
+| Categoría de Auditoría | Puntuación | Estado Diagnóstico |
+| :--- | :---: | :--- |
+| **Prácticas Recomendadas (Best Practices)** | `96%` | 🟢 Excelente. El entorno es seguro y sigue los estándares modernos. |
+| **Rendimiento (Performance)** | `89%` | 🟢 Muy Bueno. Tiempos de respuesta y carga inicial eficientes. |
+| **Accesibilidad (Accessibility)** | `81%` | 🟠 Necesita Mejora. Presencia de fallos en contraste y marcado semántico. |
+| **SEO (Optimización en Buscadores)** | `63%` | 🔴 Bajo / Crítico. Requiere optimización urgente de metadatos e indexación. |
+
+---
+
+## Resultados Agrupados por Principios (POUR)
+
+### A Principio: PERCEPTIBLE
+* **Error detectado:** Falta de contraste cromático mínimo en los textos de las insignias de los productos y ausencia de textos alternativos funcionales en imágenes.
+* **Criterio WCAG incumplido:** *Criterio de Conformidad 1.4.3 - Contraste mínimo (Nivel AA)* y *Criterio 1.1.1 - Contenido no textual (Nivel A)*.
+* **Impacto:** Los 6 errores de contraste marcados por la herramienta WAVE en las etiquetas informativas del catálogo impiden que las personas con baja visión, daltonismo o fatiga visual distingan el contenido con claridad sobre sus respectivos fondos de color.
+* **Recomendación de mejora:** Modificar las hojas de estilo (CSS) para que la relación de contraste sea mejor. Se sugiere sustituir los textos claros aplicados sobre fondos crema o amarillos por tonalidades oscuras de alta legibilidad.
+
+### B Principio: OPERABLE
+* **Error detectado:** Foco de navegación invisible o suprimido mediante código en el menú principal y en los componentes interactivos de compra.
+* **Criterio WCAG incumplido:** *Criterio de Conformidad 2.4.7 - Foco visible (Nivel AA)* y *Criterio 2.4.3 - Orden del foco (Nivel A)*.
+* **Impacto:** Un usuario que navega utilizando exclusivamente el teclado (con la tecla Tabulación) o mediante pulsadores de asistencia pierde por completo la noción de en qué elemento de la pantalla se encuentra situado (como los botones repetitivos de *"Añadir"*). Esto imposibilita la finalización autónoma de una compra.
+* **Recomendación de mejora:** Definir mediante CSS un estilo claro y visualmente llamativo para el estado activo de selección en enlaces y botones.
+
+### C Principio: ROBUSTO
+* **Error detectado:** Falta de etiquetas semánticas explícitas en el cuadro de búsqueda principal.
+* **Criterio WCAG incumplido:** Criterio de Conformidad 3.3.2 - Etiquetas o instrucciones (Nivel A)
+* **Impacto:** El campo de entrada de datos superior no posee un identificador vinculado en el árbol de accesibilidad. Lo cual dificulta la accesibilidad para personas con discapacidad.
+* **Recomendación de mejora:** Enlazar formalmente una etiqueta al cuadro de texto usando el atributo for asociado al id correspondiente.
+
+### D Principio: COMPRENSIBLE
+* **Error detectado:** Duplicación de identificadores de elemento (IDs duplicados) en las estructuras modulares de los productos.
+* **Criterio WCAG incumplido:** Criterio de Conformidad 4.1.2 - Nombre, función, valor (Nivel A)
+* **Impacto:** Al repetirse el ID "añadir" en cada tarjeta del catálogo, el navegador falla al construir las relaciones del Árbol de Accesibilidad. Esto impide que las tecnologías de asistencia determinen programáticamente a qué producto específico pertenece cada botón de compra, afectando la transmisión de su nombre accesible y su valor.
+* **Recomendación de mejora:** Garantizar la unicidad absoluta de cada atributo id en todo el documento HTML. Si se requiere heredar el mismo comportamiento o diseño visual para toda la cuadrícula de productos, se deben sustituir los identificadores repetidos.
+
+
+## 4. Tabla de Hallazgos y Prioridades
+
+| **ID** | **Prioridad** | **Criterio WCAG** | **Error detectado** | **Recomendación Técnica** |
+| :--- | :--- | :--- | :--- | :--- |
+| **ACC-01** | **Crítica** | 3.3.2 Etiquetas o instrucciones | Falta de etiqueta en el cuadro de búsqueda superior |  Añadir el atributo `aria-label="Buscar en el catálogo de cafés"` |
+| **ACC-02** | **Alta** | 1.4.3 Contraste mínimo | 6 errores de contraste de los productos sobre el fondo crema. | Cambiar el color a un tono oscuro de alta legibilidad |
+| **ACC-03** | **Alta** | 1.1.1 Contenido no textual | Ausencia de textos alternativos funcionales en las imágenes principales del catálogo. | Implementar el atributo `alt=""` explícito en imágenes decorativas o descripciones funcionales si aportan contexto |
+| **ACC-04** | **Media** | 4.1.2 Nombre, función, valor | Atributos `id` duplicados (repetidos en las tarjetas de productos de la cuadrícula del catálogo). | Eliminar los `id` repetitivos y crear nuevos|
+| **ACC-05** | **Media** | 2.4.7 Foco visible | El indicador de foco (`:focus`) está invisible o suprimido al tabular por los botones y enlaces. | Implementar en el CSS global un estilo visual claro con `outline` para resaltar el elemento interactivo activo. |
+| **ACC-06** | **Media** | 2.4.3 Orden del foco | Orden de tabulación incoherente al navegar con teclado por los elementos interactivos del Footer y catálogo. | Asegurar el flujo lógico nativo del DOM y evitar el uso de atributos `tabindex` con valores positivos mayores a cero. |
+
+## 5. Conclusiones y Declaración de Conformidad
+
+
+### Estado Actual de Conformidad
+El sitio web **no es plenamente accesible y cumple de forma muy parcial con el nivel AA** de las directrices WCAG 2.2. Si bien la auditoría automatizada arroja una puntuación base del `81%` en accesibilidad, la coexistencia de barreras críticas en elementos interactivos (ausencia de foco visible e identificadores duplicados en botones) y la falta de etiquetado en el buscador central generan un impacto directo excluyente, impidiendo que usuarios con discapacidades visuales o motoras naveguen de forma autónoma o completen con éxito procesos esenciales en la interfaz.
+
+### Próximos Pasos (Plan de Acción Inmediato)
+
+Para subsanar las vulnerabilidades detectadas con mayor urgencia y elevar significativamente la puntuación en próximas auditorías, el equipo de desarrollo debe priorizar las siguientes tres acciones inmediatas:
+
+1.  **Inyección de Semántica en Formularios (Prioridad Crítica):** Resolver de manera inmediata el error de *Missing form label* en la barra de búsqueda superior añadiendo un atributo estructurado `aria-label` o una etiqueta formal vinculada, garantizando que el control tenga un nombre accesible e identificable por los lectores de pantalla.
+2.  **Corrección de la Paleta de Contraste (Prioridad Alta):** Ajustar las hojas de estilo CSS de las insignias del catálogo (*Novedad, Clásico, Pre-entreno, Resistencia*), oscureciendo el color del texto para superar el umbral de contraste mínimo requerido frente al color de fondo crema de las tarjetas.
+3.  **Saneamiento del Marcado HTML e Identificadores (Prioridad Media):** Eliminar la duplicación de atributos `id` en la cuadrícula de productos, migrando todos los selectores de estilo repetitivos a clases CSS (`class="..."`) para asegurar que el Árbol de Accesibilidad procese limpiamente la función, el valor y la identidad única de cada botón de compra.
+
+### 5.g Usability Report de B
 ![Método UX](img/usability-report.png) 
 -----
 
->>> Añadir report de usabilidad para práctica B (la de los compañeros) aportando resultados y valoración de cada debilidad de usabilidad. 
->>> Enlazar aqui con el archivo subido a P4/ que indica qué equipo evalua a qué otro equipo.
-
->>> Complementad el Case Study en su Paso 4 con una Valoración personal del equipo sobre esta tarea
+# Usability Report
 
 
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRF017nhV-TFmNER2OM8UbXtdN6xwAKBYrv0i6onNfKu6Yn0BV0RK6aiOroeXl73LSY-B0&usqp=CAU" alt="usability Download png" style="height:150px" />
+
+### Evaluación de usabilidad del proyecto Graná en Grado
+
+Fecha: 28/06/2026
+
+![img Proyecto](P5/UsabilityReport/LogoCafeteria.png)
+
+[Enlace a GITHUB del proyecto](https://github.com/maximartinm/UX_CaseStudy)
+
+### Realizado por:  
+
+Informe realizado por el equipo DIU1-Midas
+
+Su estilo espacioso y poco cargado hace la navegación rápida y accesible si sabes donde mirar, sin embargo, ese sentimiento de espacio puede provocar una distracción en los elementos existente que tienden a destacar en el contraste del vacío. Esto puede ser una gran fortaleza si los elementos mostrados son los que se buscan, pero si no, puede llevar a perdidas de tiempo para algunos usuarios que focalicen su atención donde no deben.
+
+
+## 1 RESUMEN EJECUTIVO  (Executive Summary)
+
+- **Objetivo:** Evaluamos la usabilidad de la página para su uso por un público general de cara a lanzarla
+- **Metodología:** A/B testing de dos pruebas seguido de un test SUS y realizando un eye tracking mientras el usuario realizaba las pruebas.
+- **Principales Hallazgos:** su estilo abierto y espacioso provoca dispersiones de atención o focalizaciones en elementos que no tienen porque ser los deseados.
+- **Resultado Global:** Puntuación SUS media de **86,25**, lo que lo posiciona como decentemente aceptable pero con algo de margen de mejora.
+
+
+## 2. Metodología y Reclutamiento
+
+- **Perfil de los participantes:** Se han buscando perfiles distintos, centrándonos en especial en grupos con diferentes niveles de experiencia con Tecnologías Informáticas.
+- **Escenario de la prueba:** Los usuarios realizaron dos pruebas, buscar acceder a la carta del sitio e iniciar sesion/realizar pedido.
+- **Herramientas:** GazeMapping, Tally, Wave, Web Disability Simulator y Lighthouse Accessibility.
+
+## 3. Resultados del Cuestionario SUS (Datos Cuantitativos)
+
+- **Comparativa A vs. B:** ![Diagrama](P5/UsabilityReport/barras.png)
+Nuestro caso A ha obtenido una mejor puntuación media, aunque la diferencia tampoco es demasiado grande.
+- **Desglose por ítems:** Las preguntas del test SUS dieron un rendimiento bastante parejo, la más destacable podría ser la pregunta 10, que es la única que ha obtenido un 3, aunque esto puede deberse al rango de edad y experiencia TIC concreto.
+
+Valoración numérica del SUS - **86,25**
+
+
+## 4. Análisis de Eye Tracking (Datos Biométricos)
+
+- **Heatmaps (Mapas de calor):** [[README#5.e Aplicación del método Eye Tracking|Analizados aquí]]
+- **Zonas de Silencio:** La más remarcable es la información de la página principal que se encuentra bajo la imagen de recepción.
+- **Hallazgo clave:** Casi ningún usuario trató de hacer scroll en la página principal y los que lo hicieron solo miraron por encima, no prestaron demasiada atención.
+
+## 5. Auditoría de Accesibilidad
+
+Sintetiza el cumplimiento técnico y normativo.
+
+- **Puntuación Automática:** 81% (LightHouse).
+- **Principales barreras:** De manera resumida, se encuentran problemas de contraste, falta de texto y falta de etiquetas. [[README#5.f Accesability Report|Enlace al apartado]]
+
+## 6. Conclusiones y Recomendaciones (Actionable Insights)
+
+| **Prioridad** | **Hallazgo**                                                                                                                 | **Recomendación de Mejora**                                |
+| ------------- | ---------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------- |
+| **Media**     | La página principal es demasiado grande y espaciosa, los usuarios parecían no ser capaces de analizar lo que tenían delante. | Compactar más el contenido de la página principal,         |
+| **Media**     | La página presenta algunos problemas de cara a la accesibilidad.                                                             | Abordarlos y solucionarlos uno a uno para pulir la página. |
 
 <br>
-
-
-
 <br>
 
 ## Conclusiones finales & Valoración de las prácticas
 
-
->>> Opinión FINAL del proceso de desarrollo de diseño siguiendo metodología UX y valoración (positiva /negativa) de los resultados obtenidos. ¿Qué se puede mejorar? Recuerda que este tipo de texto se debe eliminar del template que se os proporciona 
-
+La práctica ha sido bastante interesante en líneas generales, sin embargo ha habido un punto de desorden bastante notorio que provocó, en nuestro caso, que de ir con la práctica 2 hecha con tiempo de sobra pasáramos a tener la 3, 4 y 5 en sucesión más rápida, además perdidos por no saber exactamente que hacer. Siento que si hubiéramos tenido una mejor capcitación que nos enseñara a usar Figma y exprimir su potencia, la experiencia hubiera sido bastante más gratificante, sin embargo se nos queda una sensación de que hemos intentado usar Figma de manera no completamente fructífera mientras algunos compañeros le han dedicado el mínimo usando Figma Make y conformandose con los resultados.
 
 
 
