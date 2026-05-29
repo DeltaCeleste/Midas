@@ -576,10 +576,9 @@ Sintetiza el cumplimiento técnico y normativo.
 
 ## Valoración personal de la práctica 5
 
-Aún estamos esperando que el grupo que nos tenía que testear haga sus pruebas.
-
 En lo que respecta a nuestras pruebas, parecen indicar que la página es suficientemente clara y simple, lo que ha permitido a nuestros usuarios poder moverse por ella incluso teniendo una cantidad de experiencias TIC limitadas o casi nulas.
 
+Las pruebas del otro grupo nos han aportado otro punto de vista al haber hecho otro tipo de pruebas sobre nuestras páginas. Gracias a esta, hemos determinado que aún hay aspectos que mejorar.
 <br>
 
 ## Conclusiones finales & Valoración de las prácticas
