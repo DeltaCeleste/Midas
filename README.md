@@ -485,6 +485,8 @@ En general, presente un buen nivel en cuanto a Prácticas Recomendadas y Rendimi
 
 ## 4. Tabla de Hallazgos y Prioridades
 
+<a id="hallazgos"></a>
+
 | **ID** | **Prioridad** | **Criterio WCAG** | **Error detectado** | **Recomendación Técnica** |
 | :--- | :--- | :--- | :--- | :--- |
 | **ACC-01** | **Crítica** | 3.3.2 Etiquetas o instrucciones | Falta de etiqueta en el cuadro de búsqueda superior |  Añadir el atributo `aria-label="Buscar en el catálogo de cafés"` |
@@ -553,7 +555,6 @@ Valoración numérica del SUS - **86,25**
 ## 4. Análisis de Eye Tracking (Datos Biométricos)
 
 - **Heatmaps (Mapas de calor):** [Analizados aquí](#heatmap)
-- [[README#5.e Aplicación del método Eye Tracking|Analizados aquí]]
 - **Zonas de Silencio:** La más remarcable es la información de la página principal que se encuentra bajo la imagen de recepción.
 - **Hallazgo clave:** Casi ningún usuario trató de hacer scroll en la página principal y los que lo hicieron solo miraron por encima, no prestaron demasiada atención.
 
@@ -562,7 +563,7 @@ Valoración numérica del SUS - **86,25**
 Sintetiza el cumplimiento técnico y normativo.
 
 - **Puntuación Automática:** 81% (LightHouse).
-- **Principales barreras:** De manera resumida, se encuentran problemas de contraste, falta de texto y falta de etiquetas. [[README#5.f Accesability Report|Enlace al apartado]]
+- **Principales barreras:** De manera resumida, se encuentran problemas de contraste, falta de texto y falta de etiquetas. [Enlace al apartado](#hallazgos)
 
 ## 6. Conclusiones y Recomendaciones (Actionable Insights)
 
