@@ -380,6 +380,7 @@ Veamos las 2 pruebas que hemos determinado para el A/B Testing:
 ### 5.e Aplicación del método Eye Tracking 
 ![Método UX](img/eye-tracking.png)
 ----
+<a id="heatmap"></a>
 
 Para realizar el heatmap hemos hecho uso de la herramienta GazeMapping, que registra la mirada y los clicks de los usuarios.
 
@@ -511,12 +512,6 @@ Para subsanar las vulnerabilidades detectadas con mayor urgencia y elevar signif
 ![Método UX](img/usability-report.png) 
 -----
 
-# Usability Report
-
-
-
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRF017nhV-TFmNER2OM8UbXtdN6xwAKBYrv0i6onNfKu6Yn0BV0RK6aiOroeXl73LSY-B0&usqp=CAU" alt="usability Download png" style="height:150px" />
-
 ### Evaluación de usabilidad del proyecto Graná en Grado
 
 Fecha: 28/06/2026
@@ -557,7 +552,8 @@ Valoración numérica del SUS - **86,25**
 
 ## 4. Análisis de Eye Tracking (Datos Biométricos)
 
-- **Heatmaps (Mapas de calor):** [[README#5.e Aplicación del método Eye Tracking|Analizados aquí]]
+- **Heatmaps (Mapas de calor):** [Analizados aquí](#heatmap)
+- [[README#5.e Aplicación del método Eye Tracking|Analizados aquí]]
 - **Zonas de Silencio:** La más remarcable es la información de la página principal que se encuentra bajo la imagen de recepción.
 - **Hallazgo clave:** Casi ningún usuario trató de hacer scroll en la página principal y los que lo hicieron solo miraron por encima, no prestaron demasiada atención.
 
