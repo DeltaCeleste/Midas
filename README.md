@@ -576,11 +576,13 @@ Sintetiza el cumplimiento técnico y normativo.
 | **Media**     | La página presenta algunos problemas de cara a la accesibilidad.                                                             | Abordarlos y solucionarlos uno a uno para pulir la página. |
 
 <br>
-### Valoración personal de la práctica 5
+
+## Valoración personal de la práctica 5
 
 Aún estamos esperando que el grupo que nos tenía que testear haga sus pruebas.
 
 En lo que respecta a nuestras pruebas, parecen indicar que la página es suficientemente clara y simple, lo que ha permitido a nuestros usuarios poder moverse por ella incluso teniendo una cantidad de experiencias TIC limitadas o casi nulas.
+
 <br>
 
 ## Conclusiones finales & Valoración de las prácticas
