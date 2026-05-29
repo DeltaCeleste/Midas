@@ -44,7 +44,15 @@ Valoración numérica del SUS - **86,25**
 
 ## 4. Análisis de Eye Tracking (Datos Biométricos)
 
-- **Heatmaps (Mapas de calor):** [[README#5.e Aplicación del método Eye Tracking|Analizados aquí]]
+- **Heatmaps (Mapas de calor):** 
+	- Prueba 1:
+![landing page](P5/B/analisis_sitio10.jpg)
+![landing page](P5/B/analisis_sitio12.jpg)
+	Para este caso, los usuarios tampoco presentaron mayores dificultados ya que también era de fácil acceso. Lo más destacable que revela el mapa de calor es que, pese a tener los cafés también en la página principal, debido al tamaño de la página, no todos los usuarios bajaron lo suficiente como para encontrarlos (incluso hubo quien bajó pero no le dio importancia y se metió igualmente por el enlace sin saber que los había localizado).
+	- Prueba 2:
+![landing page](P5/B/analisis_sitio11.jpg)
+	En este caso tampoco ha habido problema. Siendo la segunda prueba de esta página, los usuarios han ido más a tiro hecho. Además la página del carrito esta muy bien condensada.
+	
 - **Zonas de Silencio:** La más remarcable es la información de la página principal que se encuentra bajo la imagen de recepción.
 - **Hallazgo clave:** Casi ningún usuario trató de hacer scroll en la página principal y los que lo hicieron solo miraron por encima, no prestaron demasiada atención.
 
@@ -53,7 +61,17 @@ Valoración numérica del SUS - **86,25**
 Sintetiza el cumplimiento técnico y normativo.
 
 - **Puntuación Automática:** 81% (LightHouse).
-- **Principales barreras:** De manera resumida, se encuentran problemas de contraste, falta de texto y falta de etiquetas. [[Acceibility-Report-template#4. Tabla de Hallazgos y Prioridades|Enlace al documento]]
+- **Principales barreras:** De manera resumida, se encuentran problemas de contraste, falta de texto y falta de etiquetas. 
+
+| **ID**     | **Prioridad** | **Criterio WCAG**               | **Error detectado**                                                                                          | **Recomendación Técnica**                                                                                             |
+| :--------- | :------------ | :------------------------------ | :----------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------- |
+| **ACC-01** | **Crítica**   | 3.3.2 Etiquetas o instrucciones | Falta de etiqueta en el cuadro de búsqueda superior                                                          | Añadir el atributo `aria-label="Buscar en el catálogo de cafés"`                                                      |
+| **ACC-02** | **Alta**      | 1.4.3 Contraste mínimo          | 6 errores de contraste de los productos sobre el fondo crema.                                                | Cambiar el color a un tono oscuro de alta legibilidad                                                                 |
+| **ACC-03** | **Alta**      | 1.1.1 Contenido no textual      | Ausencia de textos alternativos funcionales en las imágenes principales del catálogo.                        | Implementar el atributo `alt=""` explícito en imágenes decorativas o descripciones funcionales si aportan contexto    |
+| **ACC-04** | **Media**     | 4.1.2 Nombre, función, valor    | Atributos `id` duplicados (repetidos en las tarjetas de productos de la cuadrícula del catálogo).            | Eliminar los `id` repetitivos y crear nuevos                                                                          |
+| **ACC-05** | **Media**     | 2.4.7 Foco visible              | El indicador de foco (`:focus`) está invisible o suprimido al tabular por los botones y enlaces.             | Implementar en el CSS global un estilo visual claro con `outline` para resaltar el elemento interactivo activo.       |
+| **ACC-06** | **Media**     | 2.4.3 Orden del foco            | Orden de tabulación incoherente al navegar con teclado por los elementos interactivos del Footer y catálogo. | Asegurar el flujo lógico nativo del DOM y evitar el uso de atributos `tabindex` con valores positivos mayores a cero. |
+
 
 ## 6. Conclusiones y Recomendaciones (Actionable Insights)
 

@@ -487,14 +487,14 @@ En general, presente un buen nivel en cuanto a Prácticas Recomendadas y Rendimi
 
 <a id="hallazgos"></a>
 
-| **ID** | **Prioridad** | **Criterio WCAG** | **Error detectado** | **Recomendación Técnica** |
-| :--- | :--- | :--- | :--- | :--- |
-| **ACC-01** | **Crítica** | 3.3.2 Etiquetas o instrucciones | Falta de etiqueta en el cuadro de búsqueda superior |  Añadir el atributo `aria-label="Buscar en el catálogo de cafés"` |
-| **ACC-02** | **Alta** | 1.4.3 Contraste mínimo | 6 errores de contraste de los productos sobre el fondo crema. | Cambiar el color a un tono oscuro de alta legibilidad |
-| **ACC-03** | **Alta** | 1.1.1 Contenido no textual | Ausencia de textos alternativos funcionales en las imágenes principales del catálogo. | Implementar el atributo `alt=""` explícito en imágenes decorativas o descripciones funcionales si aportan contexto |
-| **ACC-04** | **Media** | 4.1.2 Nombre, función, valor | Atributos `id` duplicados (repetidos en las tarjetas de productos de la cuadrícula del catálogo). | Eliminar los `id` repetitivos y crear nuevos|
-| **ACC-05** | **Media** | 2.4.7 Foco visible | El indicador de foco (`:focus`) está invisible o suprimido al tabular por los botones y enlaces. | Implementar en el CSS global un estilo visual claro con `outline` para resaltar el elemento interactivo activo. |
-| **ACC-06** | **Media** | 2.4.3 Orden del foco | Orden de tabulación incoherente al navegar con teclado por los elementos interactivos del Footer y catálogo. | Asegurar el flujo lógico nativo del DOM y evitar el uso de atributos `tabindex` con valores positivos mayores a cero. |
+| **ID**     | **Prioridad** | **Criterio WCAG**               | **Error detectado**                                                                                          | **Recomendación Técnica**                                                                                             |
+| :--------- | :------------ | :------------------------------ | :----------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------- |
+| **ACC-01** | **Crítica**   | 3.3.2 Etiquetas o instrucciones | Falta de etiqueta en el cuadro de búsqueda superior                                                          | Añadir el atributo `aria-label="Buscar en el catálogo de cafés"`                                                      |
+| **ACC-02** | **Alta**      | 1.4.3 Contraste mínimo          | 6 errores de contraste de los productos sobre el fondo crema.                                                | Cambiar el color a un tono oscuro de alta legibilidad                                                                 |
+| **ACC-03** | **Alta**      | 1.1.1 Contenido no textual      | Ausencia de textos alternativos funcionales en las imágenes principales del catálogo.                        | Implementar el atributo `alt=""` explícito en imágenes decorativas o descripciones funcionales si aportan contexto    |
+| **ACC-04** | **Media**     | 4.1.2 Nombre, función, valor    | Atributos `id` duplicados (repetidos en las tarjetas de productos de la cuadrícula del catálogo).            | Eliminar los `id` repetitivos y crear nuevos                                                                          |
+| **ACC-05** | **Media**     | 2.4.7 Foco visible              | El indicador de foco (`:focus`) está invisible o suprimido al tabular por los botones y enlaces.             | Implementar en el CSS global un estilo visual claro con `outline` para resaltar el elemento interactivo activo.       |
+| **ACC-06** | **Media**     | 2.4.3 Orden del foco            | Orden de tabulación incoherente al navegar con teclado por los elementos interactivos del Footer y catálogo. | Asegurar el flujo lógico nativo del DOM y evitar el uso de atributos `tabindex` con valores positivos mayores a cero. |
 
 ## 5. Conclusiones y Declaración de Conformidad
 
@@ -563,7 +563,7 @@ Valoración numérica del SUS - **86,25**
 Sintetiza el cumplimiento técnico y normativo.
 
 - **Puntuación Automática:** 81% (LightHouse).
-- **Principales barreras:** De manera resumida, se encuentran problemas de contraste, falta de texto y falta de etiquetas. [Enlace al apartado](#hallazgos)
+- **Principales barreras:** De manera resumida, los problemas más relevantes encontrados son de contraste, falta de texto y falta de etiquetas. [Enlace al apartado](#hallazgos)
 
 ## 6. Conclusiones y Recomendaciones (Actionable Insights)
 
